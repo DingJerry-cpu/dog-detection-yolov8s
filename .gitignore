@@ -19,3 +19,8 @@ weights/yolov8s.pt
 *.tmp
 .DS_Store
 Thumbs.db
+
+# 本机专用启动脚本（每台机器路径不同，不入库）
+打开Git终端.cmd
+打开VSCode.cmd
+_check_repo.py
