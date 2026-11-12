@@ -1,0 +1,21 @@
+# ---------- 训练中间产物，不进仓库 ----------
+raw/
+.ultralytics/
+runs/eval/
+runs/dog_yolov8s/*
+!runs/dog_yolov8s/results.csv
+!runs/dog_yolov8s/weights/
+runs/dog_yolov8s/weights/last.pt
+runs/report/det_cache.npz
+*.cache
+__pycache__/
+*.py[cod]
+
+# ---------- 可再下载的预训练权重（22MB，脚本会拉） ----------
+weights/yolov8s.pt
+
+# ---------- 临时文件 ----------
+*.log
+*.tmp
+.DS_Store
+Thumbs.db

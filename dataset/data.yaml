@@ -1,0 +1,9 @@
+# dog 单类检测数据集 (Pascal VOC 2007+2012 转换)
+path: D:/ds工作文档2/dog_yolo/dataset
+train: images/train
+val: images/val
+test: images/test
+
+nc: 1
+names:
+  0: dog

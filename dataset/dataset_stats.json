@@ -1,0 +1,36 @@
+{
+  "class": "dog",
+  "neg_ratio": 0.1,
+  "val_ratio": 0.1,
+  "splits": {
+    "train": {
+      "images": 1710,
+      "with_dog": 1555,
+      "background": 155,
+      "dog_boxes": 1857,
+      "sources": {
+        "VOC2012/trainval": 1272,
+        "VOC2007/trainval": 438
+      }
+    },
+    "val": {
+      "images": 189,
+      "with_dog": 172,
+      "background": 17,
+      "dog_boxes": 222,
+      "sources": {
+        "VOC2012/trainval": 140,
+        "VOC2007/trainval": 49
+      }
+    },
+    "test": {
+      "images": 476,
+      "with_dog": 433,
+      "background": 43,
+      "dog_boxes": 530,
+      "sources": {
+        "VOC2007/test": 476
+      }
+    }
+  }
+}
